@@ -1,0 +1,89 @@
+body{
+	margin-top: 100px;
+}
+article{
+	height: 380px;
+	margin: auto;
+	border : 1px solid #b7b7a4;
+	border-radius: 10px;
+}
+img{
+	width: 130px;
+	height: 130px;
+	margin: auto;
+	position: relative;
+	left: 38%;
+}
+.test{
+	margin: 10px;
+	width: 70%;
+	position: relative;
+	left: 65px;
+}
+.login{
+	float: right;
+	margin-right: 16%;
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+	margin-left: 80px;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+/*inscription*/
+.modal-title{
+	margin-left: 44%;
+	margin-bottom: 0!important;
+}
+.modal-header{
+	padding: 0.5rem!important;
+}
+.logo{
+	width:45px;
+}
+.close{
+	background-color:white;
+	font-weight: bold;
+    color:#1266B0;
+    border-radius: 50%;
+    width: 25px;
+	height: 25px;
+	font-size: small;
+	margin-right: 3%;
+}
+button:hover{
+	color: white;
+	background-color: #93D1DC;
+}
+.row{
+	margin: auto;
+}
+.insc{
+	float:right;
+}
+h5{
+	text-align: center;
+	margin-bottom: 3%;
+}
+/*extra small*/
+@media (max-width: 576px) {
+	.login{
+		margin-right: 14.9%;
+	}
+  }
+/*small*/
+@media (min-width: 576px) {
+	.login{
+		margin-right: 15.1%;
+	}
+  }
+/*large*/ 
+@media (min-width: 960px) {
+	.login{
+		margin-right: 16%;
+	}
+  }
+/*medium*/
+@media (min-width: 768px){
+}

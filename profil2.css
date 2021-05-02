@@ -1,0 +1,181 @@
+body{
+	background-color: white;
+	width: 100%;}
+
+
+.navbar-brand{
+	color: black;
+	font-weight:  400;
+}
+.search{
+	width: 350px;
+	height: 30px;
+	background-color:#E1E8ED;
+	border: 1px solid #AAB8C2;
+
+	border-radius: 50px; 
+	display: flex;
+    align-items: center;
+	padding: 10px;
+}
+.search >i{
+	font-size: 20px;
+	color: #AAB8C2;
+}
+.search > input{
+
+	flex:1;
+	height: 20px;
+	border: none;
+	outline: none;
+	background-color:#E1E8ED;
+	padding-left: 12px;
+	font-size:14px;
+
+
+
+}
+.coverpic{
+	width:	573px;
+	height: 200px;
+	border-radius: 8px 8px;
+}
+#icon>i{
+	font-size: 24px;
+}
+.row{
+	padding-bottom: 12px;
+}
+ .fa-twitter{
+ 	color: #1DA1F2;
+ 	font-size:30px;
+
+ }
+ .profilpic{
+ 
+ 	width: 130px;
+ 	height: 100px;
+ 	border-radius: 50%;
+ 	border: 2px solid #E1E8ED;
+ }
+ .profilpic:hover{
+ 	opacity: 0.4;
+ }
+ div #b{
+ 	position: relative;
+ 	margin-bottom: 30px;
+ }
+ div#profil{
+ 	position: absolute;
+ 	left: 15px;
+ 	bottom: -35px;
+ 	
+ }
+ #btntweet{
+ 	border-radius: 10px 8px;
+ 	font-size: 16px;
+
+
+ }
+
+ #flex{
+ 	margin-top: 90px;
+ 	margin-left: 50px;
+ }
+ #sticky{
+ 	position: fixed;
+ 	top: 4em;
+ 	left: 10px;
+ }
+section{
+	margin-left: 150px;
+	margin-right: 30px;
+	border-radius: 5%;
+	padding-top: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 40px;
+	width: 580px;
+}
+article{
+	margin-top: 40px;
+}
+a#dynamic {
+	border: none;
+	font-size: 15px;
+	font-weight: 600;
+
+	
+	
+
+}
+a#dynamic:hover{
+	border-bottom:2px solid #1DA1F2;
+	background-color: #F5F8FA;
+	color: #1DA1F2;
+}
+
+
+#side{display: flex;
+	flex-direction: column;
+
+}
+#trends{
+	
+	background-color: #F5F8FA;
+	border-radius: 30px;
+	padding:10px;
+	margin-bottom: 20px;
+}
+#trends>a {
+	background-color: #F5F8FA;
+	border-left: none;
+	border-right: none;
+	width: 330px;
+
+
+}
+div input#tweet{
+	height: 90px;
+	width: 700px;
+	border: none;
+	outline: none;
+
+}
+
+#pic{
+	width: 60px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: 7px;
+	margin-top: 4px;
+
+}
+#file{
+	color: #1DA1F2;
+	font-size: 30px;
+
+}
+
+
+#post:hover{
+	background-color: #F5F8FA;
+}
+#link{
+	
+	color:#14171A; font-size:16px; font-weight:500;
+}
+
+#edit{
+	color: #657786;
+	font-size: 14px;
+}
+#editbtn :hover{
+	background-color: #F5F8FA;
+}
+#nbr{
+	color: #AAB8C2;font-size:12px; margin-left:100px;margin-bottom:1px;
+}
+#following{
+	position:absolute ;right:15px;top:30px; font-size:14px;
+}

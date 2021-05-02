@@ -1,0 +1,111 @@
+body{
+    width:100%;
+    margin:auto;
+}
+.logo{
+margin-left: 20%;
+margin-bottom: 15%;
+}
+.m-5{
+margin: 2.3rem!important;
+}
+a{
+font-size: 15px;
+font-weight: bold;
+color:#42AFC2;
+}
+.fas,.far {
+font-size: 23px;
+color: #1266B0;
+}
+.profile{
+margin-top: 25px;
+}
+.m-2 {
+margin-bottom: 1.2rem!important;}
+
+span{
+text-align: center;
+}
+.b1{
+padding-left: 10%;
+padding-right: 10%;
+}
+button{
+background-color: #1266B0!important;
+color: white!important;
+font-weight: 600!important;
+padding-left: 20%;
+padding-right: 20%;
+margin-top:10%!important;
+} 
+.button-wrapper{
+background: #fff!important;
+border: white!important;
+color: #1266B0;
+}
+.button-wrapper span.label {
+position: relative;
+z-index: 0;
+display: inline-block;
+width: 50%;
+cursor: pointer;
+color: #1266B0;
+text-transform: uppercase;
+}
+
+#upload {
+cursor: pointer;
+display: inline-block;
+position: absolute;
+z-index: 1;
+width: 50%;
+height: 50px;
+top: 0;
+left: 0;
+opacity: 0;
+}
+.translate-middle{
+transform: translate(-110%,-260%)!important;
+}
+/* using media queries*/
+/* extra small -col*/
+@media (max-width: 576px) {
+.e1{
+    padding-left: 25%;
+}
+.e2{
+    text-align: center;
+}
+}
+/*small col-sm*/
+@media (min-width: 576px) {
+.e1{
+    padding-left: 25%;
+}
+.e2{
+    text-align: center;
+}
+button{
+    padding-left: 10%!important;
+    padding-right: 10%!important;
+}
+}
+/*meduim*/
+@media (min-width: 768px) {
+.pt-3{
+    position: fixed!important;
+}
+.e1{padding-left:5% ;}
+}
+
+/*large*/ 
+@media (min-width: 960px) {
+.e1{
+    padding-left: 2%;
+    text-align: justify;
+}
+.pt-3{
+    position: fixed!important;
+}
+}

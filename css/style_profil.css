@@ -1,0 +1,140 @@
+body{
+  width:100%;
+  margin:auto;
+}
+*::-webkit-scrollbar {
+  width: 7px !important;
+}
+
+/* Track   */                       
+*::-webkit-scrollbar-track {
+  background: inherit !important;
+  opacity: 1;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: rgb(214, 214, 214);
+  opacity: 0.8;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: rgb(167, 160, 160);
+}
+.logo{
+  margin-left: 20%;
+  margin-bottom: 15%;
+}
+.m-5{
+  margin: 2.3rem!important;
+}
+a{
+  font-size: 15px;
+  font-weight: bold;
+  color:#42AFC2;
+}
+.profile{
+  margin-top: 25px;
+}
+.m-2 {
+  margin-bottom: 1.2rem!important;}
+
+span{
+  text-align: center;
+}
+/* using media queries*/
+/* extra small*/
+@media (max-width: 576px) {
+  .e1{
+    padding-left: 25%;
+  }
+  .e2{
+    text-align: center;
+  }
+}
+/*small*/
+@media (min-width: 576px) {
+  .e1{
+    padding-left: 15%;
+  }
+}
+/*meduim*/
+@media (min-width: 768px) {
+  .pt-3{
+    position: fixed!important;
+  }
+  .e1{padding-left:5% ;}
+  
+}
+
+/*large*/ 
+@media (min-width: 960px) {
+  .e1{
+    padding-left: 2%;
+    text-align: justify;
+  }
+  .pt-3{
+    position: fixed!important;
+  }
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+/*modal*/
+.modal-title{
+	margin-left: 44%;
+	margin-bottom: 0!important;
+}
+.modal-header{
+	padding: 0.5rem!important;
+}
+.logo{
+	width:45px;
+}
+.close{
+	background-color:white;
+	font-weight: bold;
+    color:#1266B0;
+    border-radius: 50%;
+    width: 25px;
+	height: 25px;
+	font-size: small;
+	margin-right: 3%;
+}
+button:hover{
+	color: white;
+	background-color: #93D1DC;
+}
+.row{
+	margin: auto;
+}
+.insc{
+	float:right;
+}
+h5{
+	text-align: center;
+	margin-bottom: 3%;
+}
+/*extra small*/
+@media (max-width: 576px) {
+	.login{
+		margin-right: 14.9%;
+	}
+  }
+/*small*/
+@media (min-width: 576px) {
+	.login{
+		margin-right: 15.1%;
+	}
+  }
+/*large*/ 
+@media (min-width: 960px) {
+	.login{
+		margin-right: 16%;
+	}
+  }
